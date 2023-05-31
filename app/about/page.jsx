@@ -1,20 +1,17 @@
+
+import Button from "@/components/button/button"
 import Link from "next/link"
 
 
-export default function About() {
-const data = {
-    name: 'elon',
-    name2: 'mask'
-}
+export default function About(props) {
+
 
   return (
     <div>
-        <Link href='/'>Go to home</Link>
-        <h1 className="text-5xl">About Page</h1>
-        {
-            
-            console.log(data)
-        }
+      <Link href="/">Go to home</Link>
+      <h1 className="text-5xl">About Page</h1>
+
+      <Button btn_name="Get Start" />
     </div>
-  )
+  );
 }
