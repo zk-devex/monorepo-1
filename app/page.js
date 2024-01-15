@@ -10,6 +10,8 @@ export default function Home(props) {
       <Link href="/about">
         <Button btn_name="go to about page"></Button>
       </Link>
+      <h1>Go to my one app</h1>
+      <Link href='https://github.com/zobaidulkazi/book_api.git'>Github Link</Link>
     </div>
   );
 }
