@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Nav() {
@@ -5,10 +6,15 @@ export default function Nav() {
   
     <>
     
-<div>
-  <h1>Logo</h1>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sint nemo, laudantium quae perspiciatis fugit repellat vero possimus molestiae voluptates molestias aperiam quibusdam quisquam eos at accusamus sunt culpa magni?</p>
-</div>
+    <div className='bg-slate-500 p-4'>
+      <div className='text-3xl flex gap-10 justify-center'>
+        <Link href='/'>Home</Link>
+        <Link href='/about'>About</Link>
+        <Link href='/blog'>Blog</Link>
+        <Link href='/contacts'>Contatus</Link>
+        
+      </div>
+    </div>
         
     </>
   )
